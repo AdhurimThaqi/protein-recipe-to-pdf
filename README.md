@@ -14,5 +14,4 @@ This is a simple utility built for fun and functionality — useful if you want 
 
 ## 🧪 Dependencies
 
-```bash
-pip install reportlab
+`will be updated`
