@@ -305,5 +305,27 @@ recipes = [
     }
 ]
 
+# This is the Oat Bread - low calorie
+pdf.chapter_title("High Protein Bread")
+pdf.chapter_body(
+    title="High-Protein Bread",
+    ingredients=[
+        "150gr of grinded oats - (oat flour)",
+        "1/2 cup cottage cheese or Greek yogurt",
+        "2 eggs",
+        "Salt, pepper, and herbs to taste"
+    ],
+    instructions=[
+        "1. put the 150gr of oat flour into a bowl",
+        "2. Add the cottage cheese or Greek Yogurt / around 200gr.",
+        "3. Season to taste and put it on the oven for 25-30 min at 200 degree Celcius"
+    ],
+    nutrition=[
+        "Protein: ~40g depending on cottage cheese",
+        "Low Cost",
+        "Low calorie and high carb - ideal for pre workout meal"
+    ]
+)
+
 # Save the PDF to a file
 pdf.output('protein_recipes.pdf')
