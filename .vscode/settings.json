@@ -1,3 +1,59 @@
 {
-    "git.ignoreLimitWarning": true
+  // Auto save files after delay
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // Format code on save
+  "editor.formatOnSave": true,
+
+  // Enable code suggestions as you type
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  // Use tab size of 4 spaces (commonly preferred)
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+
+  // Enable minimap for quick navigation
+  "editor.minimap.enabled": true,
+
+  // Show line numbers
+  "editor.lineNumbers": "on",
+
+  // Enable breadcrumbs for file navigation
+  "breadcrumbs.enabled": true,
+
+  // Disable Git performance warnings
+  "git.ignoreLimitWarning": true,
+
+  // Enable bracket pair colorization
+  "editor.bracketPairColorization.enabled": true,
+
+  // Enable error checking while typing
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Always show the file path in the title
+  "window.title": "${activeEditorShort}${separator}${rootName}",
+
+  // Terminal settings for better experience
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.scrollback": 10000,
+
+  // Enable auto imports for JavaScript/TypeScript
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  // Files to exclude from search and file explorer
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/out": true
+  }
 }
