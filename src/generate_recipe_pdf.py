@@ -24,12 +24,12 @@ class PDF(FPDF):
             self.multi_cell(0, 10, fact)
         self.ln(10)
 
-# Create PDF instance
+# PDF instance
 pdf = PDF()
 pdf.set_auto_page_break(auto=True, margin=15)
 pdf.add_page()
 
-# Add a chapter (your recipe)
+# Chapter 1: Protein Pancakes
 pdf.chapter_title("1. Protein Pancakes")
 pdf.chapter_body(
     title="Protein Pancakes",
@@ -55,7 +55,7 @@ pdf.chapter_body(
     ]
 )
 
-# Add another chapter (your recipe)
+# Add another chapter (Pasta recipe)
 pdf.chapter_title("Protein Pasta")
 pdf.chapter_body(
     title="High-Protein Yogurt Pasta",
@@ -305,7 +305,7 @@ recipes = [
     }
 ]
 
-# This is the Oat Bread - low calorie
+# This is the Oat Bread recipe - low calorie
 pdf.chapter_title("High Protein Bread")
 pdf.chapter_body(
     title="High-Protein Bread",
